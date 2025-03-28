@@ -1,4 +1,4 @@
-def create_user_profile(*kwargs):
+def create_user_profile(**kwargs):
     profile = {}
 
     for key, value in kwargs.items():
